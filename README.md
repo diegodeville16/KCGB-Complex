@@ -4,6 +4,7 @@ It contains images of four _Sebastes_ rockfishes ( _Sebastes atrovirens_, _S. ca
 (2) Then, the images were inspected for their inclusion in the final dataset of 1105 images. The respective accession link, geographic coordinate, day of capture, and observer name for each selected photo can be found in the Excel file Photos_information.xslx 
 (3) Since the downloading process is performed in chronological order of submission in iNaturalist, the photos retrieved will vary according to time. I downloaded them on 10th October 2024. Here, I provided the link to download the set of the 1105 images I selected from iNaturalist on that day:
 https://drive.google.com/drive/folders/1DE3Yj17RHk_OxubzQ6KLp6KWFuEU8hfc?usp=drive_link
+
 There, you can find 263, 275, 283, and 284 images of _Sebastes atrovirens_, _S. carnatus_, _S. caurinus_, and _S. chrysomelas_, respectively. 
 
 (4) In each selected photo, fish bodies were delimitated by polygons or bounding boxes, and species labels were added. These tasks were performed in the VGG Image Annotator. The coordinates of the bounding boxes, polygons, and species labels are found in the file masks_and_labels.json
