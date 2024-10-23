@@ -1,7 +1,7 @@
 # KCGB-Complex
 It contains images of four _Sebastes_ rockfishes ( _Sebastes atrovirens_, _S. carnatus_, _S. caurinus_, and _S. chrysomelas_) and codes for training and testing a VGGNet16 architecture for image discrimination. Here I describe the steps I took to generate the final dataset used for training and testing species discrimination with the VGGNet16. The description includes the input and output files for each step.
 
-(1) Images per species were retrieved using the codes in the file _**Dowload_images.ipynb**_
+(1) Images per species were retrieved using the codes in the file _**Download_images.ipynb**_
 
 (2) The images were then checked for inclusion in the final dataset of 1105 images. The accession link, geographic coordinates, date of capture, and observer name for each selected image can be found in the Excel file **_Photos_information.xslx_**
 
