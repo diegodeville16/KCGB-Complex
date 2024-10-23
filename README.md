@@ -1,7 +1,7 @@
 # KCGB-Complex
 It contains images of four _Sebastes_ rockfishes ( _Sebastes atrovirens_, _S. carnatus_, _S. caurinus_, and _S. chrysomelas_) and codes for training and testing a VGGNet16 architecture for image discrimination. Here I describe the steps I took to generate the final dataset used for training and testing species discrimination with the VGGNet16. The description includes the input and output files for each step.
 
-(1) Images per species were retrieved using the codes in the file _**Dowload_images.ipynb **_
+(1) Images per species were retrieved using the codes in the file _**Dowload_images.ipynb**_
 
 (2) The images were then checked for inclusion in the final dataset of 1105 images. The accession link, geographic coordinates, date of capture, and observer name for each selected image can be found in the Excel file **_Photos_information.xslx_**
 
@@ -27,9 +27,11 @@ There are 263, 275, 283, and 284 images of _Sebastes atrovirens_, _S. carnatus_,
 (11) The 6630 normalized masks were used to create several trial datasets (600, 1800, and 3200 masks) for training and testing the VGGNet16 architecture.
 
 (12) These trial datasets were sorted into training (80%) and testing (20%) subsets for the analyses. These trial datasets were used to evaluate the performance of the VGGNet16 architecture under different parameter settings before performing analyses with 6000 masks (4800 training and 1200 testing). The training datasets were divided into a training set (80%) and a validation set (20%) in each analysis.  The final 6000 masks used to train and test the VGGNet16 can be downloaded from Google Drive: 
+
  **A) Training dataset of 4800 masks **
 https://drive.google.com/drive/folders/1i_9xdl58TJ3ejudxmFPkga5YWvZ49dy2?usp=drive_link
+
 **   B) Test dataset of 1200 masks**
   https://drive.google.com/drive/folders/1iZQxeLXC1SWUskPrR-b0YEf0S2uAZUri?usp=drive_link
   
-(13) The Processing_and_VGGNET16.ipynb file also contained results of one of the largest runs. 
+(13) The _**Processing_and_VGGNET16.ipynb**_ file also contained results of one of the largest runs. 
