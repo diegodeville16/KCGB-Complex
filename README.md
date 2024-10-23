@@ -28,7 +28,7 @@ There are 263, 275, 283, and 284 images of _Sebastes atrovirens_, _S. carnatus_,
 
 (12) These trial datasets were sorted into training (80%) and testing (20%) subsets for the analyses. These trial datasets were used to evaluate the performance of the VGGNet16 architecture under different parameter settings before performing analyses with 6000 masks (4800 training and 1200 testing). The training datasets were divided into a training set (80%) and a validation set (20%) in each analysis.  The final 6000 masks used to train and test the VGGNet16 can be downloaded from Google Drive: 
 
- **A) Training dataset of 4800 masks **
+** A) Training dataset of 4800 masks**
 https://drive.google.com/drive/folders/1i_9xdl58TJ3ejudxmFPkga5YWvZ49dy2?usp=drive_link
 
 **   B) Test dataset of 1200 masks**
