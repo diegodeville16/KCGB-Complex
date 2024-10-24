@@ -8,7 +8,7 @@ It contains images of four _Sebastes_ rockfishes (_S. atrovirens_, _S. carnatus_
 (3) As the download process in iNaturalist is in chronological order of submission, the photos retrieved will vary with time. I downloaded them on 10 October 2024. Here is the link to download the set of 1105 images I selected from iNaturalist on that day:
 https://drive.google.com/drive/folders/1DE3Yj17RHk_OxubzQ6KLp6KWFuEU8hfc?usp=drive_link
 
-There are 263, 275, 283, and 284 images of _Sebastes atrovirens_, _S. carnatus_, _S. caurinus_ and _S. chrysomelas_ respectively. 
+There are 263, 275, 283, and 284 images of _S. atrovirens_, _S. carnatus_, _S. caurinus_ and _S. chrysomelas_, respectively. 
 
 (4) In each selected photo, fish bodies were delineated by polygons or bounding boxes, and species labels were added. These tasks were performed in the VGG Image Annotator. The coordinates of the bounding boxes, polygons, and species labels can be found in the file _**masks_and_labels.json**_
 
