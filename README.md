@@ -1,5 +1,5 @@
-# KCGB-Complex
-It contains images of four _Sebastes_ rockfishes ( _Sebastes atrovirens_, _S. carnatus_, _S. caurinus_, and _S. chrysomelas_) and codes for training and testing a VGGNet16 architecture for image discrimination. Here I describe the steps I took to generate the final dataset used for training and testing species discrimination with the VGGNet16. The description includes the input and output files for each step.
+# KCGB-pecies-complex-discrimination
+It contains images of four _Sebastes_ rockfishes (_S. atrovirens_, _S. carnatus_, _S. caurinus_, and _S. chrysomelas_) and codes for training and testing a VGGNet16 architecture for image discrimination. Here, I describe the steps I took to generate the final dataset used for training and testing species discrimination with VGGNet16. The description includes the input and output files for each step.
 
 (1) Images per species were retrieved using the codes in the file _**Download_images.ipynb**_
 
@@ -22,7 +22,7 @@ There are 263, 275, 283, and 284 images of _Sebastes atrovirens_, _S. carnatus_,
 
 (9) Five augmentations (rotation, flip, random cropping, blur, and brightness) were performed on each of the 1105 masks. The resulting augmentations were also sorted by species.
 
-(10) The augmentations were merged with the 1105 masks, resulting in a total of 6630 masks sorted by species.
+(10) The augmentations were merged with the 1105 masks, resulting in 6630 masks sorted by species.
 
 (11) The 6630 normalized masks were used to create several trial datasets (600, 1800, and 3200 masks) for training and testing the VGGNet16 architecture.
 
